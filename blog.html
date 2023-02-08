@@ -85,7 +85,44 @@
                 </article>
             </section> <!-- end of blog-post section -->
 
+            <!-- COMMENTS SECTION -->
+            <section class="comments">
+                <h5>Comments:</h5>
+                <div class="top-comment">
+                    <div class="top-image">
+                        <img src="./assets/comment-1.jpg" alt="male-presenting with short brown hair">
+                    </div> <!-- end of top-image div -->
+                    <div class="top-text">
+                        <p>Tuesday November 21st, 2019 by Jeremy</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti et voluptatum explicabo aut repellat nemo ex doloribus nisi vitae, fuga quisquam odio at perferendis illum.</p>
+                    </div> <!-- end of top-text div -->
+                </div> <!-- end of top-comment div -->
 
+                <div class="bottom-comment">
+                    <div class="bottom-image">
+                        <img src="./assets/comment-2.jpg" alt="female presenting user with long black hair">
+                    </div> <!-- end of top-image div -->
+                    <div class="bottom-text">
+                        <p>Wednesday November 10th, 2019 by Julia</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quod consequatur nihil reprehenderit omnis quisquam quidem aspernatur libero numquam aut! Deserunt laboriosam nobis perferendis minus.</p>
+                    </div> <!-- end of bottom-text div -->
+                </div> <!-- end of bottom-comment div -->
+
+                <form action="#" method="POST" name="commentForm">
+
+                    <div class="name-email">
+                        <label class="sr-only" for="userName">Name</label>
+                        <input id="userName" type="text" placeholder="Name" name="userName">
+                        
+                        <label class="sr-only" for="email">Email address</label>
+                        <input type="email" placeholder="Email address" id="email">
+                    </div> <!-- end of name-email div -->
+
+                    <label class="sr-only" for="comments">Comment</label>
+                    <textarea name="comments" id="comments" placeholder="Comments" cols="50" rows="10"></textarea>
+
+                </form>
+            </section>
 
         </main>
     </div> <!-- end of blog-flex div -->

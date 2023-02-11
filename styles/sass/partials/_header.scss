@@ -1,5 +1,6 @@
 @use './variables' as *;
 
+// HOME PAGE
 .home-header {
     background-image: url(../assets/header-image.jpg);
     background-size: 100%;
@@ -34,6 +35,17 @@ h1 {
             background-color: $secondary;
             color: white;
         }
+}
+
+.side-image-container {
+    position: relative;
+
+    // after a lot of trial and error, i finally figured out how to apply position relative and absolute. all about the small wins. HOWEVER, i'm not sure what i did for the top value (negative values) is best practice.
+    img {
+        position: absolute;
+        top: -25rem;
+        right: 0;
+    }
 }
 
 

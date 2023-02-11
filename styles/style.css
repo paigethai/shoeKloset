@@ -380,3 +380,12 @@ h1 {
   background-color: #4C0341;
   color: white;
 }
+
+.side-image-container {
+  position: relative;
+}
+.side-image-container img {
+  position: absolute;
+  top: -25rem;
+  right: 0;
+}

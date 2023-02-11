@@ -1,6 +1,8 @@
+@use './variables' as *;
+
 .home-header {
     background-image: url(../assets/header-image.jpg);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -11,4 +13,21 @@
     padding-top: 1%;
 }
 
-// .logo {}
+.nav-links {
+    width: 35%;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+        padding: 7px 10px;
+    }
+        a:hover,
+        a:focus {
+            background-color: $secondary;
+            color: white;
+        }
+}
+

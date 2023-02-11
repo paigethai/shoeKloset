@@ -275,6 +275,13 @@ h6 {
   color: #4C0341;
 }
 
+h2,
+h3,
+h4,
+h6 {
+  text-transform: uppercase;
+}
+
 nav,
 footer,
 button,
@@ -307,6 +314,7 @@ button {
   line-height: 3.2rem;
   letter-spacing: 0.1rem;
   text-align: center;
+  text-transform: uppercase;
 }
 
 a {
@@ -314,6 +322,7 @@ a {
   font-size: 2rem;
   line-height: 2.9rem;
   letter-spacing: 0.1rem;
+  text-transform: uppercase;
 }
 
 .logo h5 {
@@ -332,7 +341,7 @@ footer p {
 
 .home-header {
   background-image: url(../assets/header-image.jpg);
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -345,4 +354,25 @@ footer p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-top: 1%;
+}
+
+.nav-links {
+  width: 35%;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.nav ul a {
+  padding: 7px 10px;
+}
+.nav ul a:hover,
+.nav ul a:focus {
+  background-color: #4C0341;
+  color: white;
 }

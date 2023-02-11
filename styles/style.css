@@ -346,6 +346,10 @@ footer p {
   height: 100vh;
 }
 
+h1 {
+  margin-top: 10rem;
+}
+
 .nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -353,7 +357,7 @@ footer p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 1%;
+  padding-top: 5rem;
 }
 
 .nav-links {

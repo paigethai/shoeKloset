@@ -251,13 +251,18 @@ ul {
 }
 
 a {
+  color: #0D0D0D;
   text-decoration: none;
 }
 
 html {
   font-family: "Lato", sans-serif;
-  color: #4C0341;
+  color: #0D0D0D;
   font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
 }
 
 h1,
@@ -265,10 +270,9 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h7,
-h8 {
+h6 {
   font-family: "Pompiere", cursive;
+  color: #4C0341;
 }
 
 nav,
@@ -279,7 +283,51 @@ p {
 }
 
 h1 {
-  font-weight: normal;
+  font-size: 11rem;
+  line-height: 6.4rem;
+}
+
+h2 {
+  font-size: 8rem;
+  line-height: 9.2rem;
+}
+
+h3 {
+  font-size: 5.2rem;
+  letter-spacing: 0.16rem;
+}
+
+h4 {
+  font-size: 3rem;
+  letter-spacing: 0.13rem;
+}
+
+button {
+  font-size: 2rem;
+  line-height: 3.2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
+a {
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 2.9rem;
+  letter-spacing: 0.1rem;
+}
+
+.logo h5 {
+  color: #0D0D0D;
+  font-size: 3.58rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.11rem;
+}
+
+footer p {
+  color: white;
+  font-size: 2rem;
+  line-height: 3.2rem;
+  text-align: center;
 }
 
 .home-header {

@@ -9,7 +9,7 @@
 }
 
 .home-blog-article {
-    padding-top: 5rem;
+    padding-top: 10rem;
     text-align: center;
 
     p {
@@ -58,7 +58,7 @@
     }
 
     button {
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 }
 
@@ -72,7 +72,7 @@
 
     img {
         position: absolute;
-        top: -5rem;
+        top: 1rem;
         right: 0;
         box-shadow: -25px 25px $quaternary;
     }
@@ -80,8 +80,8 @@
 
 .text-bottom-container {
     width: 40%;
-    margin: 0 9rem 5rem 10rem;
-    padding-bottom: 10rem;
+    margin-left: 10rem;
+    padding-bottom: 7rem;
 
     h3 {
         margin-bottom: 3rem;
@@ -92,9 +92,75 @@
     }
 
     button {
-        margin-top: 5rem;
+        margin-top: 3rem;
     }
 }
 
+// ICONS SECTION
 
+.icons {
+    background: $tertiary;
+    padding: 15rem 10rem;
+}
+
+.flex-icon {
+    display: flex;
+    
+    i {
+        color: white;
+        background: $secondary;
+        padding: 1rem;
+        border-radius: 50%;
+    }
+
+    h3 {
+        padding: 1rem;
+    }
+
+    p {
+        line-height: 3rem;
+    }
+}
+
+.locations {
+    display: flex;
+    margin-bottom: 8rem;
+}
+
+.location-icon {
+    padding: 1rem;
+}
+
+.community {
+    display: flex;
+}
+
+.community-icon {
+    padding: 0.5rem;
+}
+
+.blog-icon {
+    display: flex;
+
+    h3 {
+        padding-top: 0;
+    }
+}
+
+.blog-icon-text {
+    padding-left: 1rem;
+}
+
+.get-in-touch {
+    display: flex;
+    margin-top: 8rem;
+
+    h3 {
+        padding-top: 0;
+    }
+}
+
+.touch-text {
+    padding-left: 1rem;
+}
 

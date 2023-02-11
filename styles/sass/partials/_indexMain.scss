@@ -1,0 +1,22 @@
+@use './variables' as *;
+
+// **** HOME PAGE MAIN ****
+
+// ABOUT SECTION
+.about {
+    background: $tertiary;
+    padding: 20rem;
+}
+
+.home-blog-article {
+    padding-top: 5rem;
+    text-align: center;
+
+    p {
+        padding-top: 2rem;
+    }
+
+    button {
+        margin-top: 5rem;
+    }
+}

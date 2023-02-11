@@ -16,9 +16,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-h7,
-h8,
+h6,,
 p,
 ul {
     margin: 0;
@@ -32,4 +30,17 @@ ul {
 a {
     color: $primary;
     text-decoration: none;
+}
+
+button {
+    background: $secondary;
+    color: white;
+    padding: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover,
+button:focus {
+    background: $senary;
 }

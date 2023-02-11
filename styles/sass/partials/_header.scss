@@ -3,9 +3,9 @@
 // HOME PAGE
 .home-header {
     background-image: url(../assets/header-image.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 80vh;
 }
 
 h1 {
@@ -43,9 +43,11 @@ h1 {
     // after a lot of trial and error, i finally figured out how to apply position relative and absolute. all about the small wins. HOWEVER, i'm not sure what i did for the top value (negative values) is best practice.
     img {
         position: absolute;
-        top: -25rem;
+        top: -27rem;
         right: 0;
     }
 }
+
+// END OF HOME PAGE HEADER
 
 

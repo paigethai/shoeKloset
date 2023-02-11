@@ -238,8 +238,6 @@ h3,
 h4,
 h5,
 h6,
-h7,
-h8,
 p,
 ul {
   margin: 0;
@@ -253,6 +251,19 @@ ul {
 a {
   color: #0D0D0D;
   text-decoration: none;
+}
+
+button {
+  background: #4C0341;
+  color: white;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: #882C07;
 }
 
 html {
@@ -341,9 +352,9 @@ footer p {
 
 .home-header {
   background-image: url(../assets/header-image.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
 }
 
 h1 {
@@ -386,6 +397,22 @@ h1 {
 }
 .side-image-container img {
   position: absolute;
-  top: -25rem;
+  top: -27rem;
   right: 0;
+}
+
+.about {
+  background: #FAE5FF;
+  padding: 20rem;
+}
+
+.home-blog-article {
+  padding-top: 5rem;
+  text-align: center;
+}
+.home-blog-article p {
+  padding-top: 2rem;
+}
+.home-blog-article button {
+  margin-top: 5rem;
 }

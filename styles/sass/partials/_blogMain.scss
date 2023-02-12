@@ -1,1 +1,115 @@
 @use './variables' as *;
+
+.blog-flex {
+    display: flex;
+}
+
+aside {
+    background: $tertiary;
+    width: 40%;
+
+    li {
+        list-style-type: disc;
+    }
+}
+
+.side-image-container {
+    position: relative;
+
+    img {
+        position: absolute;
+        left: 0;
+        top: 28rem;
+    }
+}
+.aside-text {
+    background: $quinary;
+    margin-top: 25rem;
+    padding: 45rem 3rem 4rem 5rem;
+
+    h4 {
+        margin: 5rem 0 1rem 0;
+    }
+}
+
+.blog-main {
+    width: 60%;
+}
+
+.blog-comments {
+    margin-left: 3rem;
+    
+}
+
+.blog-image {
+    position: relative;
+
+    img {
+        position: absolute;
+        top: -25rem;
+        box-shadow: -30px 30px $quaternary;
+    }
+}
+
+.blog-post {
+    padding-top: 30rem;
+
+    h3 {
+        margin: 15rem 0 3rem 4.5rem;
+    }
+
+    p {
+        margin-bottom: 3rem;
+        padding: 0 5rem;
+    }
+}
+
+.comments {
+    border: 3px solid orange;
+    background: $tertiary;
+    padding-top: 5rem;
+
+    h3 {
+        margin-bottom: 5rem;
+    }
+}
+.top-comment {
+    display: flex;
+    margin-bottom: 10rem;
+    border: 3px solid green;
+}
+
+.top-image {
+    border: 3px solid blue;
+    width: 15%;
+    padding-left: 3rem;
+}
+
+.top-text {
+    border: 3px solid purple;
+    width: 85%;
+
+    p {
+        padding: 0 5rem;
+    }
+}
+
+.bottom-comment {
+    display: flex;
+    margin-bottom: 10rem;
+    border: 3px solid green;
+}
+
+.bottom-image {
+    border: 3px solid blue;
+    width: 15%;
+    padding-left: 3rem;
+}
+
+.bottom-text {
+    width: 85%;
+
+    p {
+        padding: 0 5rem;
+    }
+}

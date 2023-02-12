@@ -615,3 +615,7 @@ h1 {
       -ms-flex-align: center;
           align-items: center;
 }
+
+footer {
+  background: #882C07;
+}

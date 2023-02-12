@@ -560,3 +560,9 @@ h1 {
 .touch-text {
   padding-left: 1rem;
 }
+
+.banner {
+  background-image: url(../assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

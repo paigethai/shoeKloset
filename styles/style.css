@@ -503,7 +503,7 @@ h1 {
 .flex-icon i {
   color: white;
   background: #4C0341;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 50%;
 }
 .flex-icon h3 {
@@ -596,4 +596,22 @@ h1 {
 }
 .highlight-text-container button {
   margin-top: 3rem;
+}
+
+.gallery {
+  background: #FAE5FF;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.gallery-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

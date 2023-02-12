@@ -109,7 +109,7 @@
     i {
         color: white;
         background: $secondary;
-        padding: 1rem;
+        padding: 1.5rem;
         border-radius: 50%;
     }
 
@@ -205,4 +205,18 @@
     button {
         margin-top: 3rem;
     }
+}
+
+// GALLERY SECTION 
+
+.gallery {
+    background: $tertiary;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+}
+
+.gallery-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

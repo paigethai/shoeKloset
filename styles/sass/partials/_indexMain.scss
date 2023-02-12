@@ -166,7 +166,43 @@
 
 // BANNER SECTION 
 .banner {
-    background-image: url(../assets/banner.jpg);
+    // having trouble linking the banner. despite trying multiple paths...
+    // background-image: url(../assets/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: 10rem;
+}
+
+// HIGHLIGHT SECTION
+
+.highlight {
+    margin-bottom: 10rem;
+}
+
+.highlight-flex {
+    display: flex;
+}
+
+.highlight-image-container {
+    width: 100%;
+    
+    img {
+        box-shadow: 25px 25px $quaternary;
+    }
+}
+
+.highlight-text-container {
+    padding-left: 12rem;
+
+    h3 {
+        padding-bottom: 2rem;
+    }
+
+    p {
+        line-height: 3rem;
+    }
+
+    button {
+        margin-top: 3rem;
+    }
 }

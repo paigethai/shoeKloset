@@ -562,7 +562,38 @@ h1 {
 }
 
 .banner {
-  background-image: url(../assets/banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 10rem;
+}
+
+.highlight {
+  margin-bottom: 10rem;
+}
+
+.highlight-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.highlight-image-container {
+  width: 100%;
+}
+.highlight-image-container img {
+  -webkit-box-shadow: 25px 25px #FE6F19;
+          box-shadow: 25px 25px #FE6F19;
+}
+
+.highlight-text-container {
+  padding-left: 12rem;
+}
+.highlight-text-container h3 {
+  padding-bottom: 2rem;
+}
+.highlight-text-container p {
+  line-height: 3rem;
+}
+.highlight-text-container button {
+  margin-top: 3rem;
 }

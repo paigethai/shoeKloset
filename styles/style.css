@@ -678,7 +678,6 @@ aside li {
 }
 
 .comments {
-  border: 3px solid orange;
   background: #FAE5FF;
   padding-top: 5rem;
 }
@@ -691,17 +690,14 @@ aside li {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 10rem;
-  border: 3px solid green;
 }
 
 .top-image {
-  border: 3px solid blue;
   width: 15%;
   padding-left: 3rem;
 }
 
 .top-text {
-  border: 3px solid purple;
   width: 85%;
 }
 .top-text p {
@@ -713,11 +709,9 @@ aside li {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 10rem;
-  border: 3px solid green;
 }
 
 .bottom-image {
-  border: 3px solid blue;
   width: 15%;
   padding-left: 3rem;
 }

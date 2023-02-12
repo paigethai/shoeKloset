@@ -412,6 +412,7 @@ h1 {
 }
 .home-blog-article p {
   padding-top: 2rem;
+  line-height: 3rem;
 }
 .home-blog-article button {
   margin-top: 5rem;

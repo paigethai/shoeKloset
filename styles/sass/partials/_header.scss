@@ -51,3 +51,28 @@ h1 {
 // END OF HOME PAGE HEADER
 
 
+// BLOG PAGE HEADER 
+
+.blog-header {
+    background-image: url(../assets/blog-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+
+    h2 {
+        padding-top: 15%;
+        text-align: center;
+    }
+}
+
+.blog-flex {
+    display: flex;
+    border: 3px solid red;
+    margin-top: 50rem;
+}
+
+.main-blog {
+    border: 3px solid pink;
+}
+
+// END OF BLOG PAGE HEADER

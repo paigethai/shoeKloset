@@ -401,6 +401,29 @@ h1 {
   right: 0;
 }
 
+.blog-header {
+  background-image: url(../assets/blog-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+.blog-header h2 {
+  padding-top: 15%;
+  text-align: center;
+}
+
+.blog-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 3px solid red;
+  margin-top: 50rem;
+}
+
+.main-blog {
+  border: 3px solid pink;
+}
+
 .about {
   background: #FAE5FF;
   padding: 20rem;

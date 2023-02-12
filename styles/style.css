@@ -630,10 +630,10 @@ aside li {
   list-style-type: disc;
 }
 
-.side-image-container {
+.aside-image-container {
   position: relative;
 }
-.side-image-container img {
+.aside-image-container img {
   position: absolute;
   left: 0;
   top: 28rem;
@@ -721,6 +721,50 @@ aside li {
 }
 .bottom-text p {
   padding: 0 5rem;
+}
+
+.comment-form {
+  margin-top: 15rem;
+}
+
+.name-email {
+  margin-bottom: 3rem;
+}
+.name-email .comment-name {
+  width: 47.5%;
+  background: #FAE5FF;
+  border: none;
+  border-bottom: 2px solid #FE6F19;
+}
+.name-email .comment-email {
+  width: 47.5%;
+  background: #FAE5FF;
+  border: none;
+  border-bottom: 2px solid #FE6F19;
+}
+.name-email input[placeholder] {
+  padding: 2rem;
+}
+
+.submit-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 95%;
+}
+.submit-flex textarea[placeholder] {
+  padding: 2rem;
+}
+.submit-flex textarea {
+  background: #FAE5FF;
+  border: 2px solid #FE6F19;
+}
+.submit-flex button {
+  margin: 3rem 0 10rem 0;
 }
 
 footer {

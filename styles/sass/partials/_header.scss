@@ -52,7 +52,6 @@ h1 {
 
 
 // BLOG PAGE HEADER 
-
 .blog-header {
     background-image: url(../assets/blog-header.jpg);
     background-size: cover;
@@ -66,3 +65,16 @@ h1 {
 }
 
 // END OF BLOG PAGE HEADER
+
+// CONTACT PAGE HEADER 
+.contact-header {
+    background-image: url(../assets/contact-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+
+    h2 {
+        text-align: center;
+        padding-top: 5%;
+    }
+}

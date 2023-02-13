@@ -155,7 +155,8 @@
 // BANNER SECTION 
 .banner {
     // having trouble linking the banner. despite trying multiple paths...
-    // background-image: url(../assets/banner.jpg);
+    background-image: url(../assets/banner.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10rem;

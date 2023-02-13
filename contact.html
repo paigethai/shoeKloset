@@ -16,7 +16,7 @@
     <!-- LINK TO FONT AWESOME SCRIPT -->
     <script src="https://kit.fontawesome.com/cb1b95cbfc.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="contact-page">
     <!-- HEADER SECTION -->
     <header class="contact-header" id="home">
         <div class="wrapper nav">
@@ -44,54 +44,61 @@
         <h2>Get in Touch</h2>
     </header>
 
-    <aside class="contact-aside">
-        <div class="wrapper">
-            <div class="contact-icons">
-                <ul>
-                    <li>
-                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
-                    </li>
-                </ul>
-            </div> <!-- end of contact-icons div -->
-
-            <div class="contact-info">
-                <h4>info@email.com</h4>
-                <p>123-456-7890</p>
-                <p>123 Queen Street West, Unit 10</p>
-                <p>Toronto, Ontario</p>
-                <p>M5V 2D5</p>
-            </div> <!-- end of contact-info div -->
-        </div> <!-- end of wrapper div -->
-    </aside>
-
-    <main>
-        <!-- CONTACT FORM SECTION -->
-        <section class="contact-form">
-            <form action="#" method="POST" name="contactForm">
-                <div class="name-email">
-                    <label class="sr-only" for="userName">Name</label>
-                    <input id="userName" type="text" placeholder="Name" name="userName">
-            
-                    <label class="sr-only" for="email">Email address</label>
-                    <input type="email" placeholder="Email address" id="email">
-                </div> <!-- end of name-email div -->
-            
-                <label class="sr-only" for="comments">Message</label>
-                <textarea name="comments" id="comments" placeholder="Message" cols="50" rows="10"></textarea>
-                
-                <button type="submit">Submit</button>
-            </form>
-        </section> <!-- end of contact form section -->
-    </main>
+    <div class="contact-page-flex">
+        
+        <!-- ASIDE SECTION -->
+        <aside class="contact-aside">
+            <div class="wrapper">
+                <div class="contact-icons">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                        </li>
+                    </ul>
+                </div> <!-- end of contact-icons div -->
+        
+                <div class="contact-info">
+                    <h4>info@email.com</h4>
+                    <p>123-456-7890</p>
+                    <p>123 Queen Street West, Unit 10</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V 2D5</p>
+                </div> <!-- end of contact-info div -->
+            </div> <!-- end of wrapper div -->
+        </aside>
+        
+        <!-- MAIN SECTIONS -->
+        <main class="contact-main">
+            <!-- CONTACT FORM SECTION -->
+            <section class="contact-form">
+                <form action="#" method="POST" name="contactForm">
+                    <div class="name-email">
+                        <label class="sr-only" for="userName">Name</label>
+                        <input id="userName" type="text" placeholder="Name" name="userName">
+        
+                        <label class="sr-only" for="email">Email address</label>
+                        <input type="email" placeholder="Email address" id="email">
+                    </div> <!-- end of name-email div -->
+                    
+                    <div class="contact-submit">
+                        <label class="sr-only" for="comments">Message</label>
+                        <textarea name="comments" id="comments" placeholder="Message" cols="50" rows="10"></textarea>
+                        
+                        <button type="submit">Submit</button>
+                    </div> <!-- end of contact-submit -->
+                </form>
+            </section> <!-- end of contact form section -->
+        </main>
+    </div> <!-- end of contact-page-flex -->
 
     <!-- FOOTER SECTION -->
     <footer>

@@ -1,0 +1,77 @@
+@use './variables' as *;
+
+.contact-page {
+    background: $tertiary;
+}
+
+.contact-page-flex {
+    display: flex;
+}
+
+.contact-main {
+    width: 60%;
+    position: relative;
+}
+
+.contact-aside {
+    // border: 3px solid green;
+    width: 40%;
+    padding: 15rem;
+
+    h4 {
+        margin-bottom: 2rem;
+    }
+}
+
+.contact-icons {
+    // border: 1px solid blue;
+    ul {
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        width: 35%;
+        padding: 10rem 0 2.5rem 0;
+    }
+
+    li {
+        list-style-type: none;
+    }
+}
+
+
+.contact-form {
+    background: $quinary;
+    position: absolute;
+    top: -20rem;
+    padding: 5rem;
+    width: 90%;
+    box-shadow: -20px 20px $quaternary;
+}
+
+.name-email {
+    
+    input[placeholder] {
+        border: none;
+        border-bottom: 2px solid $quaternary;
+        width: calc( (90% / 2) );
+    }
+}
+
+
+.contact-submit {
+    display: flex;
+    flex-direction: column;
+
+    textarea {
+        border: none;
+        border: 2px solid $quaternary;
+    }
+
+    textarea[placeholder] {
+        padding: 2rem;
+    }
+
+    button {
+        margin: 3rem 0;
+    }
+}

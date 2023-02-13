@@ -778,6 +778,79 @@ aside li {
   margin: 3rem 0 10rem 0;
 }
 
+.contact-page {
+  background: #FAE5FF;
+}
+
+.contact-page-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-main {
+  width: 60%;
+  position: relative;
+}
+
+.contact-aside {
+  width: 40%;
+  padding: 15rem;
+}
+.contact-aside h4 {
+  margin-bottom: 2rem;
+}
+
+.contact-icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 35%;
+  padding: 10rem 0 2.5rem 0;
+}
+.contact-icons li {
+  list-style-type: none;
+}
+
+.contact-form {
+  background: white;
+  position: absolute;
+  top: -20rem;
+  padding: 5rem;
+  width: 90%;
+  -webkit-box-shadow: -20px 20px #FE6F19;
+          box-shadow: -20px 20px #FE6F19;
+}
+
+.name-email input[placeholder] {
+  border: none;
+  border-bottom: 2px solid #FE6F19;
+  width: 45%;
+}
+
+.contact-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.contact-submit textarea {
+  border: none;
+  border: 2px solid #FE6F19;
+}
+.contact-submit textarea[placeholder] {
+  padding: 2rem;
+}
+.contact-submit button {
+  margin: 3rem 0;
+}
+
 footer {
   background: #882C07;
 }

@@ -652,6 +652,7 @@ aside li {
 
 .aside-text {
   background: white;
+  width: 90%;
   margin-top: 30rem;
   padding: 42rem 3rem 4rem 5rem;
 }

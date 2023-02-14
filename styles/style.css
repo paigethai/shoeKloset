@@ -874,10 +874,18 @@ footer {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-bottom: 50rem;
+    margin-bottom: 35rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .text-top-container {
+    width: 90%;
+    padding: 10rem 0 10rem 0;
+  }
+  .text-bottom-container {
+    width: 90%;
+    padding: 10rem 0 10rem 0;
   }
   .top-blog-text {
     text-align: center;
@@ -922,7 +930,10 @@ footer {
   .text-top-container h3 {
     line-height: 5rem;
   }
-  .bottom-text-container h3 {
+  .text-bottom-container {
+    padding: 5rem 0 10rem 0;
+  }
+  .text-bottom-container h3 {
     line-height: 5rem;
   }
   .get-in-touch h3 {
@@ -932,6 +943,7 @@ footer {
     display: none;
   }
   .highlight-text-container {
+    padding: 0;
     text-align: center;
   }
   .blog-post {
@@ -946,5 +958,54 @@ footer {
   }
   .aside-text {
     padding-top: 1rem;
+  }
+}
+@media (max-width: 940px) {
+  .flex-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .locations {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .locations i {
+    margin-bottom: 2rem;
+  }
+  .blog-icon {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blog-icon i {
+    margin-bottom: 2rem;
+  }
+  .community {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 8rem;
+  }
+  .community i {
+    margin-bottom: 2rem;
+  }
+  .get-in-touch {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .get-in-touch i {
+    margin-bottom: 2rem;
   }
 }

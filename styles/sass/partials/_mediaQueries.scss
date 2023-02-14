@@ -11,8 +11,18 @@
     .top-row {
         display: flex;
         flex-direction: column-reverse;
-        margin-bottom: 50rem;
+        margin-bottom: 35rem;
         align-items: center;
+    }
+    
+    .text-top-container {
+        width: 90%;
+        padding: 10rem 0 10rem 0;
+    }
+
+    .text-bottom-container {
+        width: 90%;
+        padding: 10rem 0 10rem 0;
     }
 
     .top-blog-text {
@@ -60,8 +70,12 @@
         line-height: 5rem;
     }
 
-    .bottom-text-container h3 {
-        line-height: 5rem;
+    .text-bottom-container {
+        padding: 5rem 0 10rem 0;
+        
+        h3 {
+            line-height: 5rem;
+        }
     }
 
     .get-in-touch h3 {
@@ -73,6 +87,7 @@
     }
 
     .highlight-text-container {
+        padding: 0;
         text-align: center;
     }
 
@@ -93,4 +108,48 @@
     .aside-text {
         padding-top: 1rem;
     }
+}
+
+@media (max-width: 940px) {
+
+    // HOME PAGE 
+    .flex-icon {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .locations {
+        flex-direction: column;
+
+        i {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .blog-icon {
+        flex-direction: column;
+
+        i {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .community {
+        flex-direction: column;
+        margin-top: 8rem;
+
+        i {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .get-in-touch {
+        flex-direction: column;
+
+        i {
+            margin-bottom: 2rem;
+        }
+    }
+
 }

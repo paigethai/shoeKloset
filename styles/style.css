@@ -965,6 +965,9 @@ footer {
     margin-top: 6rem;
     color: #4C0341;
   }
+  .about {
+    padding: 5rem;
+  }
   .flex-icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1070,5 +1073,11 @@ footer {
     width: 100%;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    text-align: center;
+    line-height: 12.5rem;
   }
 }

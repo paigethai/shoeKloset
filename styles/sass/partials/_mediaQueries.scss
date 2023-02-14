@@ -117,6 +117,10 @@
         margin-top: 6rem;
         color: $secondary;
     }
+
+    .about {
+        padding: 5rem;
+    }
     .flex-icon {
         display: flex;
         flex-direction: column;
@@ -186,10 +190,6 @@
         display: none;
     }
     
-    
-    
-    
-    
     // CONTACT PAGE 
     .contact-page-flex {
         flex-direction: column-reverse;
@@ -229,5 +229,8 @@
 }
 
 @media (max-width: 768px) {
-
+    h1 {
+        text-align: center;
+        line-height: 12.5rem;
+    }
 }

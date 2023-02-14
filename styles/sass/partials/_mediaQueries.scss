@@ -113,6 +113,10 @@
 @media (max-width: 940px) {
 
     // HOME PAGE 
+    h1 {
+        margin-top: 6rem;
+        color: $secondary;
+    }
     .flex-icon {
         display: flex;
         flex-direction: column;
@@ -151,5 +155,45 @@
             margin-bottom: 2rem;
         }
     }
+
+    // CONTACT PAGE 
+    .contact-page-flex {
+        flex-direction: column-reverse;
+    }
+
+    .contact-main {
+        width: 100%;
+    }
+
+    .contact-form {
+        background: $tertiary;
+        width: 100%;
+        top: 0;
+        box-shadow: none;
+        
+        input {
+            background: $tertiary;
+        }
+
+        textarea {
+            background: $tertiary;
+        }
+    }
+
+    .contact-aside {
+        width: 100%;
+        padding: 0;
+        margin-top: 60rem;
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+
+    .contact-icons ul {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 768px) {
 
 }

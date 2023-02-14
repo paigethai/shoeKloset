@@ -156,6 +156,40 @@
         }
     }
 
+    // BLOG PAGE 
+    .blog-flex {
+        flex-direction: column-reverse;
+    }
+    
+    aside {
+        width: 100%;
+
+        .aside-text {
+            margin-top: 0;
+        }
+    }
+
+    .blog-main {
+        width: 100%;
+    }
+
+    .blog-post {
+        padding-top: 0;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .comments {
+        padding: 8rem 5rem 0 5rem;
+    }
+    
+    .blog-image img {
+        display: none;
+    }
+    
+    
+    
+    
+    
     // CONTACT PAGE 
     .contact-page-flex {
         flex-direction: column-reverse;

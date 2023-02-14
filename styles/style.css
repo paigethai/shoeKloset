@@ -898,6 +898,9 @@ footer {
   .bottom-blog-text {
     text-align: center;
   }
+  .blog-post h3 {
+    margin: 10rem 0 3rem 4.5rem;
+  }
   .contact-aside {
     padding: 10rem;
   }
@@ -922,10 +925,26 @@ footer {
   .bottom-text-container h3 {
     line-height: 5rem;
   }
+  .get-in-touch h3 {
+    line-height: 5rem;
+  }
   .highlight-image-container {
     display: none;
   }
   .highlight-text-container {
     text-align: center;
+  }
+  .blog-post {
+    padding-top: 13rem;
+  }
+  .blog-post h3 {
+    line-height: 5rem;
+    margin-top: 10rem;
+  }
+  .aside-image-container img {
+    display: none;
+  }
+  .aside-text {
+    padding-top: 1rem;
   }
 }

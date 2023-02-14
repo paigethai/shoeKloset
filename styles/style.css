@@ -931,6 +931,7 @@ footer {
     line-height: 5rem;
   }
   .text-bottom-container {
+    margin: 0 10rem;
     padding: 5rem 0 10rem 0;
   }
   .text-bottom-container h3 {
@@ -1079,5 +1080,37 @@ footer {
   h1 {
     text-align: center;
     line-height: 12.5rem;
+  }
+  .image-top-container {
+    width: 100%;
+  }
+  .image-bottom-container {
+    width: 100%;
+  }
+  .highlight-text-container h3 {
+    line-height: 5rem;
+  }
+}
+@media (max-width: 480px) {
+  .bottom-row {
+    margin-bottom: 40rem;
+  }
+  .text-bottom-container {
+    padding: 0 0 10rem 0;
+  }
+  .icons {
+    padding: 10rem 2rem;
+  }
+  .gallery {
+    padding: 5rem 0;
+  }
+  .gallery .gallery-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gallery .gallery-flex li {
+    margin-top: 4rem;
   }
 }

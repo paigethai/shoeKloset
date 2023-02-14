@@ -71,6 +71,7 @@
     }
 
     .text-bottom-container {
+        margin: 0 10rem;
         padding: 5rem 0 10rem 0;
         
         h3 {
@@ -229,8 +230,49 @@
 }
 
 @media (max-width: 768px) {
+
+    // HOME PAGE
     h1 {
         text-align: center;
         line-height: 12.5rem;
+    }
+
+    .image-top-container {
+        width: 100%;
+    }
+
+    .image-bottom-container {
+        width: 100%;
+    }
+
+    .highlight-text-container h3 {
+        line-height: 5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    // HOME PAGE
+    .bottom-row {
+        margin-bottom: 40rem;
+    }
+    .text-bottom-container {
+        padding: 0 0 10rem 0;
+    }
+
+    .icons {
+        padding: 10rem 2rem;
+    }
+
+    .gallery {
+        padding: 5rem 0;
+
+        .gallery-flex {
+            flex-direction: column;
+
+            li {
+                margin-top: 4rem;
+            }
+        }
     }
 }

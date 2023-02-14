@@ -1,1 +1,66 @@
 @use './variables' as *;
+
+@media (max-width: 1245px) {
+
+    // HOME PAGE
+
+    .side-image {
+        display: none;
+    }
+
+    .top-row {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50rem;
+        align-items: center;
+    }
+
+    .top-blog-text {
+        text-align: center;
+    }
+
+    .bottom-row {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 50rem;
+        align-items: center;
+        
+    }
+
+    .bottom-blog-text {
+        text-align: center;
+    }
+
+    // CONTACT PAGE
+    .contact-aside {
+        padding: 10rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+        
+        a {
+            color: $quaternary;
+        }
+    }
+
+    .text-top-container h3 {
+        line-height: 5rem;
+    }
+
+    .bottom-text-container h3 {
+        line-height: 5rem;
+    }
+
+    .highlight-image-container {
+        display: none;
+    }
+
+    .highlight-text-container {
+        text-align: center;
+    }
+}

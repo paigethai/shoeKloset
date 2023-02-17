@@ -4,6 +4,10 @@
 
     // HOME PAGE
 
+    .ham-links {
+        display: none;
+    }
+
     .side-image {
         display: none;
     }
@@ -68,7 +72,6 @@
             background: none;
             color: $primary;
 
-            :active,
             :hover,
             :focus {
                 color: $tertiary;
@@ -78,7 +81,6 @@
                 font-size: 3.5rem;
             }
         }
-
     }
 
     // .nav-links ul {

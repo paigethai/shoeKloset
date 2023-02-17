@@ -83,4 +83,24 @@ h1 {
 // HAMBURGER MENU
 .hamburger-menu {
     display: none;
+    position: relative;
+
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+    }
+
+.ham-links ul {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background-color: $tertiary;
+    width: 30rem;
+    margin-top: 6rem;
+
+    li {
+        padding: 3rem 2rem;
+    }
 }

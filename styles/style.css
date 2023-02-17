@@ -369,6 +369,8 @@ h1 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding-top: 5rem;
 }
 
@@ -422,6 +424,10 @@ h1 {
 .contact-header h2 {
   text-align: center;
   padding-top: 10%;
+}
+
+.hamburger-menu {
+  display: none;
 }
 
 .about {
@@ -914,18 +920,23 @@ footer {
   }
 }
 @media (max-width: 1050px) {
-  .nav-links ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    text-align: right;
+  .nav-links {
+    display: none;
   }
-  .nav-links ul a {
-    color: #FE6F19;
+  .hamburger-menu {
+    display: block;
+  }
+  .hamburger-menu button {
+    background: none;
+    color: #0D0D0D;
+  }
+  .hamburger-menu button :active,
+  .hamburger-menu button :hover,
+  .hamburger-menu button :focus {
+    color: #FAE5FF;
+  }
+  .hamburger-menu button i {
+    font-size: 3.5rem;
   }
   .text-top-container h3 {
     line-height: 5rem;

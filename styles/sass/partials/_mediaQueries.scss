@@ -56,15 +56,40 @@
 @media (max-width: 1050px) {
 
     // HOME PAGE
-    .nav-links ul {
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-        
-        a {
-            color: $quaternary;
-        }
+
+    .nav-links {
+        display: none;
     }
+
+    .hamburger-menu {
+        display: block;
+
+        button {
+            background: none;
+            color: $primary;
+
+            :active,
+            :hover,
+            :focus {
+                color: $tertiary;
+            }
+
+            i {
+                font-size: 3.5rem;
+            }
+        }
+
+    }
+
+    // .nav-links ul {
+    //     display: flex;
+    //     flex-direction: column;
+    //     text-align: right;
+        
+    //     a {
+    //         color: $quaternary;
+    //     }
+    // }
 
     .text-top-container h3 {
         line-height: 5rem;

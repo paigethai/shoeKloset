@@ -58,20 +58,21 @@
 
     // HOME PAGE
 
+    .logo {
+        z-index: 99;
+    }
+
     .nav-links {
         display: none;
     }
 
     .hamburger-menu {
         display: block;
-        position: relative;
 
         button {
             background: none;
             color: $primary;
-            position: absolute;
-            top: 0;
-            right: 0;
+            position: fixed;
             z-index: 100;
 
             :hover,
@@ -92,13 +93,14 @@
         right: 0;
         width: 100%;
         opacity: 0.9;
+        z-index: 98;
 
         ul {
             display: flex;
             flex-direction: column;
             text-align: center;
             background-color: $tertiary;
-            margin-top: 8.5rem;
+            margin-top: -4rem;
 
             li {
                 padding: 3rem 2rem;

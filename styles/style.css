@@ -920,19 +920,19 @@ footer {
   }
 }
 @media (max-width: 1050px) {
+  .logo {
+    z-index: 99;
+  }
   .nav-links {
     display: none;
   }
   .hamburger-menu {
     display: block;
-    position: relative;
   }
   .hamburger-menu button {
     background: none;
     color: #0D0D0D;
-    position: absolute;
-    top: 0;
-    right: 0;
+    position: fixed;
     z-index: 100;
   }
   .hamburger-menu button :hover,
@@ -949,6 +949,7 @@ footer {
     right: 0;
     width: 100%;
     opacity: 0.9;
+    z-index: 98;
   }
   .ham-links ul {
     display: -webkit-box;
@@ -960,7 +961,7 @@ footer {
             flex-direction: column;
     text-align: center;
     background-color: #FAE5FF;
-    margin-top: 8.5rem;
+    margin-top: -4rem;
   }
   .ham-links ul li {
     padding: 3rem 2rem;

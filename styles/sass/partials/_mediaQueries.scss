@@ -68,16 +68,19 @@
 
     .hamburger-menu {
         display: block;
+        position: relative;
 
         button {
             background: none;
             color: $primary;
             position: fixed;
+            top: 3rem;
+            right: 2.5rem;
             z-index: 100;
 
             :hover,
             :focus {
-                color: $tertiary;
+                color: $senary;
             }
 
             i {

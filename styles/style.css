@@ -928,16 +928,19 @@ footer {
   }
   .hamburger-menu {
     display: block;
+    position: relative;
   }
   .hamburger-menu button {
     background: none;
     color: #0D0D0D;
     position: fixed;
+    top: 3rem;
+    right: 2.5rem;
     z-index: 100;
   }
   .hamburger-menu button :hover,
   .hamburger-menu button :focus {
-    color: #FAE5FF;
+    color: #882C07;
   }
   .hamburger-menu button i {
     font-size: 3.5rem;

@@ -446,7 +446,7 @@ h1 {
           flex-direction: column;
   text-align: right;
   background-color: #FAE5FF;
-  width: 30rem;
+  width: 20rem;
   margin-top: 6rem;
 }
 .ham-links ul li {
@@ -894,6 +894,9 @@ footer {
 @media (max-width: 1245px) {
   .ham-links {
     display: none;
+    position: fixed;
+    top: 4rem;
+    right: 0;
   }
   .side-image {
     display: none;

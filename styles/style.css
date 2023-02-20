@@ -404,6 +404,10 @@ h1 {
   right: 0;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 .blog-header {
   background-image: url(../assets/blog-header.jpg);
   background-size: cover;
@@ -424,33 +428,6 @@ h1 {
 .contact-header h2 {
   text-align: center;
   padding-top: 10%;
-}
-
-.hamburger-menu {
-  display: none;
-  position: relative;
-}
-.hamburger-menu button {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-.ham-links ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  text-align: right;
-  background-color: #FAE5FF;
-  width: 20rem;
-  margin-top: 6rem;
-}
-.ham-links ul li {
-  padding: 3rem 2rem;
 }
 
 .about {
@@ -892,12 +869,6 @@ footer {
 }
 
 @media (max-width: 1245px) {
-  .ham-links {
-    display: none;
-    position: fixed;
-    top: 4rem;
-    right: 0;
-  }
   .side-image {
     display: none;
   }
@@ -954,10 +925,15 @@ footer {
   }
   .hamburger-menu {
     display: block;
+    position: relative;
   }
   .hamburger-menu button {
     background: none;
     color: #0D0D0D;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
   }
   .hamburger-menu button :hover,
   .hamburger-menu button :focus {
@@ -965,6 +941,29 @@ footer {
   }
   .hamburger-menu button i {
     font-size: 3.5rem;
+  }
+  .ham-links {
+    display: none;
+    position: fixed;
+    top: 4rem;
+    right: 0;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .ham-links ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    background-color: #FAE5FF;
+    margin-top: 8.5rem;
+  }
+  .ham-links ul li {
+    padding: 3rem 2rem;
   }
   .text-top-container h3 {
     line-height: 5rem;

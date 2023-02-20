@@ -4,14 +4,6 @@
 
     // HOME PAGE
 
-    .ham-links {
-        display: none;
-        position: fixed;
-        top: 4rem;
-        right: 0;
-
-    }
-
     .side-image {
         display: none;
     }
@@ -49,6 +41,7 @@
         text-align: center;
     }
 
+
     // BLOG PAGE 
     .blog-post h3 {
         margin: 10rem 0 3rem 4.5rem;
@@ -71,10 +64,15 @@
 
     .hamburger-menu {
         display: block;
+        position: relative;
 
         button {
             background: none;
             color: $primary;
+            position: absolute;
+            top: 0;
+            right: 0;
+            z-index: 100;
 
             :hover,
             :focus {
@@ -87,15 +85,26 @@
         }
     }
 
-    // .nav-links ul {
-    //     display: flex;
-    //     flex-direction: column;
-    //     text-align: right;
-        
-    //     a {
-    //         color: $quaternary;
-    //     }
-    // }
+    .ham-links {
+        display: none;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        width: 100%;
+        opacity: 0.9;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: $tertiary;
+            margin-top: 8.5rem;
+
+            li {
+                padding: 3rem 2rem;
+            }
+        }
+    }
 
     .text-top-container h3 {
         line-height: 5rem;

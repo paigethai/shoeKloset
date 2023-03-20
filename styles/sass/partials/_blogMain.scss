@@ -115,17 +115,15 @@ aside {
 
 .name-email {
     margin-bottom: 3rem;
-    width: 94.5%;
+    width: 90%;
     
     .comment-name {
-        width: calc(90% / 2);
         background: $tertiary;
         border: none;
         border-bottom: 2px solid $quaternary;
     }
 
     .comment-email {
-        width: calc( 90% / 2 );
         background: $tertiary;
         border: none;
         border-bottom: 2px solid $quaternary;

@@ -750,16 +750,14 @@ aside li {
 
 .name-email {
   margin-bottom: 3rem;
-  width: 94.5%;
+  width: 90%;
 }
 .name-email .comment-name {
-  width: 45%;
   background: #FAE5FF;
   border: none;
   border-bottom: 2px solid #FE6F19;
 }
 .name-email .comment-email {
-  width: 45%;
   background: #FAE5FF;
   border: none;
   border-bottom: 2px solid #FE6F19;
@@ -870,6 +868,7 @@ aside li {
 }
 .contact-submit button {
   margin: 3rem 0;
+  width: 90%;
 }
 
 footer {
@@ -1110,6 +1109,18 @@ footer {
   .blog-image img {
     display: none;
   }
+  .comment-form {
+    width: 100%;
+  }
+  .comment-form form {
+    width: 100%;
+  }
+  .comment-form form .blog-name-email {
+    margin-left: 0;
+  }
+  .comment-form form .blog-name-email input[placeholder] {
+    width: 45.25%;
+  }
   .contact-page-flex {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1126,11 +1137,28 @@ footer {
     -webkit-box-shadow: none;
             box-shadow: none;
   }
+  .contact-form form {
+    width: 100%;
+  }
   .contact-form input {
     background: #FAE5FF;
   }
   .contact-form textarea {
     background: #FAE5FF;
+  }
+  .name-email {
+    margin-left: 4.4rem;
+  }
+  .name-email input[placeholder] {
+    width: 48.25%;
+  }
+  .name-email #userName {
+    margin-right: 1.5rem;
+  }
+  .contact-submit {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .contact-aside {
     width: 100%;
@@ -1140,9 +1168,11 @@ footer {
     text-align: center;
   }
   .contact-icons ul {
-    width: 100%;
+    width: 70%;
     -ms-flex-pack: distribute;
         justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 0;
   }
 }
 @media (max-width: 768px) {

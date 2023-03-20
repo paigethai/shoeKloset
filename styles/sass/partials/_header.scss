@@ -15,6 +15,7 @@ h1 {
 .nav {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 5rem;
 }
 
@@ -48,6 +49,10 @@ h1 {
     }
 }
 
+.hamburger-menu {
+    display: none;
+}
+
 // END OF HOME PAGE HEADER
 
 
@@ -78,5 +83,3 @@ h1 {
         padding-top: 10%;
     }
 }
-
-

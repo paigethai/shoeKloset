@@ -53,14 +53,12 @@
 }
 
 .name-email {
-    
     input[placeholder] {
         border: none;
         border-bottom: 2px solid $quaternary;
-        width: calc( (90% / 2) );
+        width: calc( 94.5% / 2 );
     }
 }
-
 
 .contact-submit {
     display: flex;
@@ -69,6 +67,9 @@
     textarea {
         border: none;
         border: 2px solid $quaternary;
+        height: 20rem;
+        width: 90%;
+        resize: none;
     }
 
     textarea[placeholder] {
@@ -77,5 +78,6 @@
 
     button {
         margin: 3rem 0;
+        width: 90%;
     }
 }

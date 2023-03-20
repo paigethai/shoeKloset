@@ -115,17 +115,15 @@ aside {
 
 .name-email {
     margin-bottom: 3rem;
+    width: 90%;
     
     .comment-name {
-        
-        width: calc( (95% / 2) );
         background: $tertiary;
         border: none;
         border-bottom: 2px solid $quaternary;
     }
 
     .comment-email {
-        width: calc( (95% / 2) );
         background: $tertiary;
         border: none;
         border-bottom: 2px solid $quaternary;
@@ -137,7 +135,6 @@ aside {
 }
 
 .submit-flex {
-    // border: 3px solid green;
     display: flex;
     flex-direction: column;
     width: 95%;
@@ -149,9 +146,14 @@ aside {
     textarea {
         background: $tertiary;
         border: 2px solid $quaternary;
+        height: 20rem;
+        width: 90%;
+        resize: none;
+
     }
     
     button {
         margin: 3rem 0 10rem 0;
+        width: 90%;
     }
 }

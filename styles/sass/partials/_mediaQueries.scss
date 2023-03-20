@@ -346,6 +346,14 @@
         line-height: 12.5rem;
     }
 
+    h2 {
+        font-size: 6rem;
+    }
+
+    .home-blog-article {
+        padding-top: 5rem;
+    }
+
     .image-top-container {
         width: 100%;
     }
@@ -357,11 +365,24 @@
     .highlight-text-container h3 {
         line-height: 5rem;
     }
+
+    // CONTACT PAGE 
+    .name-email input[placeholder] {
+        width: 47%;
+    }
 }
 
 @media (max-width: 480px) {
     
     // HOME PAGE
+    h2 {
+        font-size: 5rem;
+    }
+
+    .about {
+        padding: 5rem 0;
+    }
+    
     .bottom-row {
         margin-bottom: 40rem;
     }
@@ -389,7 +410,123 @@
 
             li {
                 margin-top: 4rem;
+                width: 95%;
             }
         }
+    }
+
+    // BLOG PAGE 
+    .blog-post {
+        padding: 0 0 0 2rem;
+
+        h3 {
+            font-size: 4rem;
+            margin: 10rem 0 3rem 0;
+        }
+
+        p {
+            padding: 0 8rem 0 0;
+        }
+    }
+
+    .top-image {
+        display: none;
+    }
+
+    .top-text {
+        width: 95%;
+
+        p {
+            padding: 0;
+        }
+    }
+
+    .bottom-image {
+        display: none;
+    }
+
+    .bottom-text {
+        width: 95%;
+
+        p {
+            padding: 0;
+        }
+    }
+
+    .comment-form {
+        margin-top: 8rem;
+    }
+}
+
+@media (max-width: 320px) {
+
+    footer p {
+        font-size: 1.6rem;
+    }
+    
+    // HOME PAGE 
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    .home-blog-article {
+        padding-top: 2rem;
+    }
+
+    // BLOG PAGE 
+    p,
+    li,
+    button {
+        font-size: 1.6rem;
+    }
+    .blog-post p {
+        padding: 0 4rem 0 0;
+    }
+
+    .name-email {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .comment-form form .blog-name-email input[placeholder] {
+        width: 93%;
+    }
+
+    .submit-flex textarea {
+        width: 100%;
+    }
+
+    .submit-flex button {
+        width: 100%;
+    }
+
+    .aside-text {
+        width: 100%;
+    }
+
+    // CONTACT PAGE 
+    .contact-header h2 {
+        padding-top: 50%;
+    }
+
+    .name-email {
+        margin-left: 0;
+    }
+
+    .name-email input[placeholder] {
+        width: 95%;
+    }
+
+    .contact-submit textarea {
+        width: 100%;
+    }
+
+    .contact-submit button {
+        width: 100%;
     }
 }

@@ -1,10 +1,8 @@
 console.log("hello world");
 
 const hamburgerButton = document.querySelector(".hamburger");
-// console.log(hamburgerButton);
 
 const hamburgerMenu = document.querySelector(".ham-links");
-// console.log(hamburgerMenu);
 
 hamburgerButton.addEventListener("click", function() {
     if (hamburgerMenu.style.display === "block") {

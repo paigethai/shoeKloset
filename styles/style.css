@@ -750,15 +750,16 @@ aside li {
 
 .name-email {
   margin-bottom: 3rem;
+  width: 94.5%;
 }
 .name-email .comment-name {
-  width: 47.5%;
+  width: 45%;
   background: #FAE5FF;
   border: none;
   border-bottom: 2px solid #FE6F19;
 }
 .name-email .comment-email {
-  width: 47.5%;
+  width: 45%;
   background: #FAE5FF;
   border: none;
   border-bottom: 2px solid #FE6F19;
@@ -783,9 +784,13 @@ aside li {
 .submit-flex textarea {
   background: #FAE5FF;
   border: 2px solid #FE6F19;
+  height: 20rem;
+  width: 90%;
+  resize: none;
 }
 .submit-flex button {
   margin: 3rem 0 10rem 0;
+  width: 90%;
 }
 
 .contact-page {
@@ -841,7 +846,7 @@ aside li {
 .name-email input[placeholder] {
   border: none;
   border-bottom: 2px solid #FE6F19;
-  width: 45%;
+  width: 47.25%;
 }
 
 .contact-submit {
@@ -856,6 +861,9 @@ aside li {
 .contact-submit textarea {
   border: none;
   border: 2px solid #FE6F19;
+  height: 20rem;
+  width: 90%;
+  resize: none;
 }
 .contact-submit textarea[placeholder] {
   padding: 2rem;
@@ -869,6 +877,9 @@ footer {
 }
 
 @media (max-width: 1245px) {
+  .about {
+    padding: 5rem;
+  }
   .side-image {
     display: none;
   }
@@ -911,6 +922,12 @@ footer {
   }
   .bottom-blog-text {
     text-align: center;
+  }
+  .icons {
+    padding: 15rem 5rem;
+  }
+  .gallery-flex li {
+    width: 30%;
   }
   .blog-post h3 {
     margin: 10rem 0 3rem 4.5rem;
@@ -996,6 +1013,13 @@ footer {
     line-height: 5rem;
     margin-top: 10rem;
   }
+  .top-image {
+    padding: 0;
+  }
+  .bottom-image {
+    padding: 0;
+    width: 15%;
+  }
   .aside-image-container img {
     display: none;
   }
@@ -1007,6 +1031,9 @@ footer {
   h1 {
     margin-top: 6rem;
     color: #4C0341;
+  }
+  h2 {
+    font-size: 7rem;
   }
   .about {
     padding: 5rem;
